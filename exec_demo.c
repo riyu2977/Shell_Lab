@@ -9,7 +9,7 @@ int main()
 
     char *args[] = {"ls", "-l", NULL};
 
-    execvp(args[0], args);
+    execvp(args[0], args); //replacing the current process of prog with ls
 
     perror("execvp failed");
 

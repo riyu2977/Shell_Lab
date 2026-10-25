@@ -31,7 +31,7 @@ int main()
         pause();
     }
 
-    printf("\nSIGINT received. Exiting cleanly.\n");
+    printf("\nSIGINT received. Exiting now...\n");
 
     return 0;
 }
